@@ -23,4 +23,4 @@ export const checkToken = (req, res, next) => {
         console.error(error)
         throw new Error(error)
     }
-}       
+}   
